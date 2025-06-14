@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Garg Bartan & Electronics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .products-section {
+            padding: 120px 5% 4rem;
+        }
+        
+        .product-category {
+            margin-bottom: 4rem;
+        }
+        
+        .product-category h2 {
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e74c3c;
+        }
+        
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .product-info {
+            padding: 1.5rem;
+        }
+        
+        .product-info h3 {
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+        }
+        
+        .product-price {
+            color: #e74c3c;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .buy-button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .buy-button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Garg Bartan & Electronics</h1>
+                <p>Since 1997</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="products-section">
+        <section class="product-category">
+            <h2>Kitchen Utensils</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/bartan.jpg" alt="Bartan Set" class="product-image">
+                    <div class="product-info">
+                        <h3>Premium Bartan Set</h3>
+                        <p class="product-price">₹1,499</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/mixi.jpg" alt="Mixer Grinder" class="product-image">
+                    <div class="product-info">
+                        <h3>Mixer Grinder</h3>
+                        <p class="product-price">₹2,999</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/chule.jpg" alt="Gas Stove" class="product-image">
+                    <div class="product-info">
+                        <h3>Gas Stove</h3>
+                        <p class="product-price">₹3,499</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-category">
+            <h2>Electronics</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/induction.jpg" alt="Induction Cooker" class="product-image">
+                    <div class="product-info">
+                        <h3>Induction Cooker</h3>
+                        <p class="product-price">₹2,499</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/oven.jpg" alt="Microwave Oven" class="product-image">
+                    <div class="product-info">
+                        <h3>Microwave Oven</h3>
+                        <p class="product-price">₹8,999</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/iron.jpg" alt="Iron" class="product-image">
+                    <div class="product-info">
+                        <h3>Steam Iron</h3>
+                        <p class="product-price">₹1,299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-category">
+            <h2>Electrical Items</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/tubelight.jpg" alt="Tube Light" class="product-image">
+                    <div class="product-info">
+                        <h3>LED Tube Light</h3>
+                        <p class="product-price">₹299</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/bulb.jpg" alt="LED Bulb" class="product-image">
+                    <div class="product-info">
+                        <h3>LED Bulb</h3>
+                        <p class="product-price">₹149</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/plass.jpg" alt="Plass" class="product-image">
+                    <div class="product-info">
+                        <h3>Plass Set</h3>
+                        <p class="product-price">₹499</p>
+                        <a href="#" class="buy-button">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Phone: [Your Phone Number]</p>
+                <p>Email: [Your Email]</p>
+                <p>Address: [Your Address]</p>
+            </div>
+            <div class="footer-section">
+                <h3>Payment Methods</h3>
+                <p>UPI Payment Available</p>
+                <p>Cash on Delivery</p>
+            </div>
+            <div class="footer-section">
+                <h3>Delivery Area</h3>
+                <p>10 KM Range</p>
+                <p>Free Delivery above ₹1000</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Garg Bartan & Electronics. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

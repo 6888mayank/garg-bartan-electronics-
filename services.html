@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Garg Bartan & Electronics</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .services-section {
+            padding: 120px 5% 4rem;
+        }
+        
+        .services-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .services-header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card i {
+            font-size: 3rem;
+            color: #e74c3c;
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .warranty-section {
+            background-color: #f9f9f9;
+            padding: 4rem 5%;
+            text-align: center;
+        }
+        
+        .warranty-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .warranty-content h2 {
+            color: #2c3e50;
+            margin-bottom: 2rem;
+        }
+        
+        .warranty-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .warranty-feature {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .warranty-feature i {
+            font-size: 2rem;
+            color: #e74c3c;
+            margin-bottom: 1rem;
+        }
+        
+        .warranty-feature h4 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Garg Bartan & Electronics</h1>
+                <p>Since 1997</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="services-section">
+        <div class="services-header">
+            <h1>Our Services</h1>
+            <p>Quality Service Since 1997</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-tools"></i>
+                <h3>Free Repair Service</h3>
+                <p>Expert repair services for all electrical items purchased from our store. Our skilled technicians ensure your appliances work like new.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-truck"></i>
+                <h3>Home Delivery</h3>
+                <p>Free delivery within 10km range for orders above ₹1000. Fast and reliable delivery service to your doorstep.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-headset"></i>
+                <h3>Customer Support</h3>
+                <p>24/7 customer support for all your queries and concerns. We're here to help you with any product-related issues.</p>
+            </div>
+        </div>
+
+        <section class="warranty-section">
+            <div class="warranty-content">
+                <h2>1 Year Warranty</h2>
+                <p>We stand behind the quality of our products with a comprehensive 1-year warranty on all items purchased from our store.</p>
+                
+                <div class="warranty-features">
+                    <div class="warranty-feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Full Coverage</h4>
+                        <p>Complete protection against manufacturing defects</p>
+                    </div>
+                    <div class="warranty-feature">
+                        <i class="fas fa-sync"></i>
+                        <h4>Easy Replacement</h4>
+                        <p>Quick and hassle-free replacement process</p>
+                    </div>
+                    <div class="warranty-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <h4>Quality Assured</h4>
+                        <p>All products meet highest quality standards</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Phone: [Your Phone Number]</p>
+                <p>Email: [Your Email]</p>
+                <p>Address: [Your Address]</p>
+            </div>
+            <div class="footer-section">
+                <h3>Payment Methods</h3>
+                <p>UPI Payment Available</p>
+                <p>Cash on Delivery</p>
+            </div>
+            <div class="footer-section">
+                <h3>Delivery Area</h3>
+                <p>10 KM Range</p>
+                <p>Free Delivery above ₹1000</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Garg Bartan & Electronics. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
